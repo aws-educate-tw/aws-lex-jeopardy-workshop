@@ -3,13 +3,17 @@
 ## Introduction
 " 10/27 探索未來對話式科技 " ☁ 親手帶你做智慧語音助理：輕鬆上手 Amazon Lex 工作坊 ☁
 
-## Lambda Part
+## Lambda Part Setup
+Import the package we need.
+
 ```python
 import json
 import random
 import requests
+```
 
-""" --- Helpers to call jService (https://jservice.io/) --- """
+```python
+""" Helpers to call jService (https://jservice.io/) """
 
 def get_question(category):
 
@@ -28,8 +32,10 @@ def get_question(category):
         return q['question'] + '  →  ' + q['answer']
     except:
         return 'Oops! Our question set is out of service. Please try it later.'
+```
 
-""" --- Main handler --- """
+```python
+""" Main handler """
 
 def lambda_handler(event, context):
 
@@ -59,7 +65,13 @@ def lambda_handler(event, context):
     return response
 ```
 
-## Lex Part
+## Lex Part Setup
+
+### Bot
+### Intent
+### Utterance
+### Slot
+### Fulfillment
 
 ## CONTACT INFO.
 
@@ -69,3 +81,10 @@ def lambda_handler(event, context):
 > <aside>
 >   📩 <a href="mailto:hugo970217@gmail.com">hugo970217@gmail.com</a>
 > </aside>
+
+## License
+Released under [MIT](./LICENSE) by [AWS Educate TW](https://aws.amazon.com/tw/education/awseducate/), [Hugo ChunHo Lin](https://github.com/1chooo).
+
+This software can be modified and reused without restriction.
+The original license must be included with any copies of this software.
+If a significant portion of the source code is used, please provide a link back to this repository.
