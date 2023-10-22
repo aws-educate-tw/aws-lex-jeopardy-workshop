@@ -1,10 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Created Date: 2023/10/22
+Author: 1chooo (Hugo ChunHo Lin)
+Mail: hugo970217@gmail.com
+"""
+
 import json
 import random
 import requests
 
-
 """ --- Helpers to call jService (https://jservice.io/) --- """
-
 
 def get_question(category):
 
@@ -24,9 +29,7 @@ def get_question(category):
     except:
         return 'Oops! Our question set is out of service. Please try it later.'
 
-
 """ --- Main handler --- """
-
 
 def lambda_handler(event, context):
 
