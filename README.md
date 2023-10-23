@@ -68,9 +68,13 @@ def lambda_handler(event, context):
 ## Lex Part Setup
 
 ### Bot
+
 ### Intent
+
 ### Utterance
+
 ### Slot
+
 ### Fulfillment
 
 ## CONTACT INFO.
