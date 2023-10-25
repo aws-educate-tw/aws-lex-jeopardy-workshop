@@ -5,11 +5,11 @@
 ## Lambda Setup
 
 ### Lambda Jeopardy Game Information
-| Configuration | Content |
-|:-:|:-:|
-| Function Name | Jeopardy_game |
-| Runtime | Python 3.9 |
-| layer Name | jeopardy_request |
+| Configuration | Content | figure |
+|:-:|:-:|:-:|
+| Function Name | Jeopardy_game | ![](imgs/lamda_01.png)|
+| Runtime | Python 3.9 | |
+| layer Name | jeopardy_request | ![](imgs/lambda_layer.png) <br> ![](imgs/lambda_layer_02.png)|
 
 ### `Python` Source Code
 ```python
@@ -68,6 +68,10 @@ def lambda_handler(event, context):
 ```
 
 ### GeoEvent `JSON` Source Code
+
+- Test Event Action: Create new event
+- Event name: `GeoEvent`
+
 ```js
 {
     "interpretations": [
