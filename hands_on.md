@@ -9,10 +9,14 @@
 ## Lambda Setup
 
 ### Lambda Jeopardy Game Information
-| Configuration | Content | Figure |
-|:-:|:-:|:-:|
-| Function Name | Jeopardy_game | ![](imgs/lamda_01.png)|
-| Runtime | Python 3.9 | |
+
+![](imgs/lamda_01.png)
+
+| Configuration | Content |
+|:-:|:-:|
+| Function Name | Jeopardy_game | 
+| Runtime | Python 3.9 |
+
 
 ### `Python` Source Code
 ```python
@@ -126,32 +130,48 @@ def lambda_handler(event, context):
 ### Lex Jeopardy Game Slot Configuration
 
 #### Slot Type
-| Configuration | Content |
-|:-:|:-:|
-| Type Name | Category |
-| Restrict to Slot values | Yes |
+| Configuration | Content | Figure |
+|:-:|:-:|:-:|
+| Type Name | Category | ![](imgs/lex_slot_type.png) |
+| Restrict to Slot values | Yes | ![](imgs/lex_slot_restrict.png) |
 
 #### Slot Type Value
-| Slot Type Value |     Synonyms     |
-|:-------------:|:--------------:|
-| Pop music | 1. Music <br>2. music <br>3. Pop |
-| Sport | 1. sport <br>2. exercise  |
-| Geography | 1. landscape <br>2. geography <br>3. landmark |
+| Slot Type Value |     Synonyms     | Figure |
+|:-------------:|:--------------:|:-:|
+| Pop music | 1. Music <br>2. music <br>3. Pop | ![](imgs/lex_slot_music.png) |
+| Sport | 1. sport <br>2. exercise  | ![](imgs/lex_slot_sport.png) |
+| Geography | 1. landscape <br>2. geography <br>3. landmark | ![](imgs/lex_slot_geography.png) |
 
 #### Lex Jeopardy Game Add Slot Configuration
-| Slot Type Value |     Synonyms     |
-|:-------------:|:--------------:|
-| Name | CategoryName |
-| Slot Type | Category  |
-| Prompts | Choose you question type |
+| Slot Type Value |     Synonyms     | Figure |
+|:-------------:|:--------------:|:-:|
+| Name | CategoryName | ![](imgs/lex_add_slot_name.png) |
+| Slot Type | Category  | ![](imgs/lex_add_slot_type.png) |
+| Prompts | Choose you question type | ![](imgs/lex_add_slot_prompts.png) |
+
+
+![](imgs/lex_add_slot.png) |
 
 #### Lex Jeopardy Game Confirmation Configuration
 | Confirmation Prompt |     Decline Response     |
 |:-------------:|:--------------:|
-| On Successful fulfillment | ok,preparing {CategoryName} question |
+| make sure your question type：{CategoryName} | cancel question type：{CategoryName} |
+| ![](imgs/slot_confirmation.png) | ![](imgs/slot_decline.png) |
 
 #### Lex Jeopardy Game Fulfillment Configuration
 
+| On Successful fulfillment |
+|:-------------:|
+| ok, preparing {CategoryName} question |  
+| ![](imgs/lex_fulfillment.png) |
+
+## Feedback
+
+最後邀請大家，填寫本次工作坊的回饋表單，無論是想要給我們鼓勵、又或是可以讓我們做得更好的建議，甚至是未來工作坊希望我們介紹的內容都非常歡迎！請大家踴躍填寫，謝謝大家今天的參與！
+
+| QRCode | url |
+|:-------------:|:--------------:|
+| ![](imgs/qr_code.png) | https://www.surveycake.com/s/qXbgw |
 
 
 ## CONTACT INFO.
@@ -160,7 +180,12 @@ def lambda_handler(event, context):
 > **Hugo ChunHo Lin**
 > 
 > <aside>
->   📩 <a href="mailto:hugo970217@gmail.com">hugo970217@gmail.com</a>
+>   📩 E-mail: <a href="mailto:hugo970217@gmail.com">hugo970217@gmail.com</a>
+> <br>
+>   🧳 Linkedin: <a href="https://www.linkedin.com/in/1chooo/">Hugo ChunHo Lin</a>
+> <br>
+>   👨🏻‍💻 GitHub: <a href="https://github.com/1chooo">1chooo</a>
+>    
 > </aside>
 
 ## License
