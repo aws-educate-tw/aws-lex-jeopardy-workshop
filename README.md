@@ -83,7 +83,12 @@ def lambda_handler(event, context):
 > **Hugo ChunHo Lin**
 > 
 > <aside>
->   📩 <a href="mailto:hugo970217@gmail.com">hugo970217@gmail.com</a>
+>   📩 E-mail: <a href="mailto:hugo970217@gmail.com">hugo970217@gmail.com</a>
+> <br>
+>   🧳 Linkedin: <a href="https://www.linkedin.com/in/1chooo/">Hugo ChunHo Lin</a>
+> <br>
+>   👨🏻‍💻 GitHub: <a href="https://github.com/1chooo">1chooo</a>
+>    
 > </aside>
 
 ## License
