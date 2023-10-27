@@ -6,6 +6,14 @@
 
 讓我們一起體驗智慧語音助理帶來的樂趣吧！
 
+## Event Engine
+
+| Configuration | Content | Figure |
+|:-:|:-:|:-:|
+| Event Engine Dashboard | https://shorturl.at/mowzG | ![](./imgs/event_qr_code.png) |
+| Event Hash | 82bd-198814ef54-87| ![](./imgs/event_engine.png) |
+| Sign in with | Email One-Time Password (OTP) | ![](./imgs/event_email.png) |
+
 ## Lambda Setup
 
 ### Lambda Jeopardy Game Information
